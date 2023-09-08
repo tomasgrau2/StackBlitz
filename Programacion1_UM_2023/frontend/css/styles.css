@@ -1,0 +1,138 @@
+/* Establecer el fondo de imagen */
+.background-image {
+    background-image: url('Banner.jpg');/* Reemplaza con la ruta de tu imagen de fondo */ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 100px 0; /* Agregar un espacio arriba y abajo */
+}
+
+/* Ajustar estilos de los cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Cambiar el color del texto de las cards */
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #777;
+}
+
+/* Estilos para el footer */
+.footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ccc;
+}
+
+.welcome-text {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+.welcome-text h1 {
+    color: transparent; /* Hace que el texto sea transparente */
+}
+
+/* Colores Nav */
+.nav-link{
+    color: #191919;
+}
+
+.fondo-oscuro{
+    background-color: #191919;
+}
+
+.borde-personalizado {
+    border: 2px solid #252525; /* Cambia el grosor y el color según tus preferencias */
+  }
+
+.card-text{
+    color: var(--White, #FFF);
+    /* Subtitle/Semibold */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-horarios{
+    color: #D0FD3E;
+/* Footnote/Regular */
+font-family: Open Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 123.077% */
+}
+
+.background-elipse {
+    background-image: url('/public/images/ellipse-38.svg');/* Reemplaza con la ruta de tu imagen de fondo */ 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 100px 0; /* Agregar un espacio arriba y abajo */
+}
+
+
+.custom-alert {
+background-color: #000;
+color: #fff;
+text-align: center;
+padding: 15px;
+}
+
+.custom-heading {
+font-size: 24px;
+font-weight: bold;
+}
+
+.custom-text {
+font-size: 18px;
+}
+.custom-navbar { /* Cambia el valor a la altura deseada en píxeles o cualquier otra unidad de medida */
+    background-color: #C4C4C4;
+}
+
+
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+  }
+
+.p-login{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.form-login{
+    opacity: 0.5;
+}
+
+.button-login{
+    border-radius: 10px;
+    border: 2px solid #212123;
+    background: #252527;
+    box-shadow: 0px 11px 20px 0px rgba(0, 0, 0, 0.20);
+}
